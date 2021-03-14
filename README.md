@@ -4,6 +4,10 @@
 > the daily coding and thinking
 
 
+## Content
+- bloom filter(布隆过滤器)
+
+
 ## GetingHelp
 ***
 - you can report bugs at the issues
