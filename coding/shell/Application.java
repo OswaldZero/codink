@@ -20,6 +20,9 @@ public class Application {
             System.out.print(cmdLine.getPath()+">");
             Scanner scanner = new Scanner(System.in);
             String input = scanner.nextLine();
+            if (input.equals("exit")){
+                break;
+            }
             String[] command = input.split(" ");
             //这里还是不建议像超哥那样用反射做，命名不正规
             try {
